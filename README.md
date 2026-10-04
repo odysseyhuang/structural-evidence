@@ -2,9 +2,6 @@ Official implementation of **“Deliberately Incomplete Structural Facts: Accura
 
 This repository implements a unified context modeling approach for repository-level code completion. The method retrieves repository evidence from multiple query views, organizes heterogeneous code relations in a unified context graph, and uses multi-path evidence to select compact cross-file context for code generation.
 
-> This repository contains the implementation of **Work I only**.  
-> The evidence-quality dataset and Controller introduced in Work II are not included here.
-
 ## Overview
 
 Repository-level code completion requires information distributed across multiple files. Pure lexical retrieval may return code that is textually similar but semantically incomplete, while a single dependency relation cannot cover all forms of useful repository context.
